@@ -713,7 +713,7 @@ button:hover {
 }
 
 .shop__title-link:hover {
-    color: #888888
+    text-decoration: underline;
 }
 
 .shop__price-container {
