@@ -565,9 +565,9 @@ img:after {
     width: calc(270px - 50px);
 }
 
-.search-field:hover {
-    outline: 1px solid #b59f5b;
-    outline-offset: -1px;
+.search-field:focus {
+    border: 1px solid #b59f5b;
+
 }
 
 
@@ -609,9 +609,8 @@ img:after {
     padding: 20px;
 }
 
-.field-sub:hover {
-    outline: 1px solid #b59f5b;
-    outline-offset: -1px;
+.field-sub:focus {
+    border: 1px solid #b59f5b;
 }
 
 .button-sub {
